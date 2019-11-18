@@ -19,6 +19,10 @@ $(document).ready(function() {
       .parent()
       .find(".submenu")
       .toggle("show");
+
+    if ($(this).html() === "CONTATO") {
+      $("main").load(`./pages/contato.php`);
+    }
   });
 
   $(".submenu li").on("click", function(e) {
@@ -33,5 +37,9 @@ $(document).ready(function() {
         .toggleClass("selected");
     }
     $(this).toggleClass("selected");
+
+    const file = $(this).attr("file");
+
+    $("main").load(`./pages/${file}.php`);
   });
 });
