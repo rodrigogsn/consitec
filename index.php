@@ -65,6 +65,7 @@
         <label>lalala direitos reservados</label>
       </footer>
     </aside>
+    <div class='fake_header'></div>
     <main></main>
   </body>
 </html>
