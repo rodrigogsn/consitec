@@ -14,123 +14,56 @@
         <img src="./src/logo-white.png" />
       </div>
 
-      <div class="menu_container">
-        <div class="menu">
-          <label>CONSITEC</label>
+      <nav class="menu_container">
+        <ul class='menu'>
+          <li><span>CONSITEC</span>
+            <ul class='submenu'>
+              <li>Sobre nós</li>
+              <li>Estrutura organizacional</li>
+              <li>Estrutura de governança</li>
+            </ul>
+          </li>
 
-          <div class="submenu">
-            <div>
-              <label>Sobre nós</label>
-            </div>
+          <li><span>GESTÃO</span>
+            <ul class='submenu'>
+              <li>de Projetos</li>
+              <li>de Riscos</li>
+              <li>de Construção/Supervisão</li>
+              <li>Social: Capacitação</li>
+              <li>Social: Conhecimento</li>
+              <li>Social: Comunidades de Entorno</li>
+              <li>Social: Capital Humano</li>
+              <li>Social: Segurança/Saúde</li>
+            </ul>
+          </li>
 
-            <div>
-              <label>Estrutura organizacional</label>
-            </div>
+          <li><span>SERVIÇOS</span>
+            <ul class='submenu'>
+              <li>Pré-Construção</li>
+              <li>Construção Civil</li>
+              <li>Tecnologia e Informação</li>
+              <li>Engenharia Civil</li>
+              <li>Engenharia Estrututal</li>
+              <li>Engenharia Elétrica</li>
+              <li>Engenharia Mecânica</li>
+              <li>Infraestruturas Subterrâneas</li>
+            </ul>
+          </li>
 
-            <div>
-              <label>Estrutura de governança</label>
-            </div>
-          </div>
-        </div>
+          <li><span>PROJETOS/CLIENTES</span>
+            <ul class='submenu'>
+              <li>Todos os Projetos</li>
+              <li>Principais Clientes</li>
+            </ul>
+          </li>
 
-        <div class="menu">
-          <label>GESTÃO</label>
+          <li>CONTATO</li>
+        </ul>
+      </nav>
 
-          <div class="submenu">
-            <div>
-              <label>de Projetos</label>
-            </div>
-
-            <div>
-              <label>de Riscos</label>
-            </div>
-
-            <div>
-              <label>de Construção/Supervisão</label>
-            </div>
-
-            <div>
-              <label>Social: Capacitação</label>
-            </div>
-
-            <div>
-              <label>Social: Conhecimento</label>
-            </div>
-
-            <div>
-              <label>Social: Comunidades de Entorno</label>
-            </div>
-
-            <div>
-              <label>Social: Capital Humano</label>
-            </div>
-
-            <div>
-              <label>Social: Segurança/Saúde</label>
-            </div>
-          </div>
-        </div>
-
-        <div class="menu">
-          <label>SERVIÇOS</label>
-
-          <div class="submenu">
-            <div>
-              <label>Pré-Construção</label>
-            </div>
-
-            <div>
-              <label>Construção Civil</label>
-            </div>
-
-            <div>
-              <label>Tecnologia e Informação</label>
-            </div>
-
-            <div>
-              <label>Engenharia Civil</label>
-            </div>
-
-            <div>
-              <label>Engenharia Estrututal</label>
-            </div>
-
-            <div>
-              <label>Engenharia Elétrica</label>
-            </div>
-
-            <div>
-              <label>Engenharia Mecânica</label>
-            </div>
-
-            <div>
-              <label>Infraestruturas Subterrâneas</label>
-            </div>
-          </div>
-        </div>
-
-        <div class="menu">
-          <label>PROJETOS/CLIENTES</label>
-
-          <div class="submenu">
-            <div>
-              <label>Todos os Projetos</label>
-            </div>
-
-            <div>
-              <label>Principais Clientes</label>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <label>CONTATO</label>
-        </div>
-      </div>
-
-      <div class="copyright">
+      <footer>
         <label>lalala direitos reservados</label>
-      </div>
+      </footer>
     </aside>
     <div id="content"></div>
   </body>

@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,700,700i|Work+Sans:400,700&display=swap");
 
+@import url("reset.css");
+
 body {
   display: flex;
   flex-direction: row;
+}
+
+ul {
+  padding: 0px;
 }
 
 .header {
@@ -29,21 +35,40 @@ body {
 
 .menu_container {
   font-family: "Roboto Mono", monospace;
+  font-weight: bold;
 
   height: 70%;
   padding: 20px;
   color: #ffff;
 }
 
-.menu_container div {
-  padding: 10px;
+.menu_container li {
+  list-style-type: none;
+  margin: 20px 10px;
+}
+
+.menu_container li span,
+.submenu li {
+  cursor: pointer;
+}
+
+.menu_container li span.selected,
+li.selected {
+  font-weight: bold;
+  background: #d73228;
+  padding: 0px 10px 0px 50px;
+  margin-left: -50px;
 }
 
 .submenu {
+  font-weight: lighter;
+
   display: none;
 }
 
-.copyright {
+footer {
+  color: #ffff;
+
   padding: 20px;
   height: 10%;
 }
