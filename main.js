@@ -1,3 +1,8 @@
+function openMobHeader() {
+  let header_el = $(".header");
+  header_el.toggleClass("visible");
+}
+
 $(document).ready(function() {
   $(".menu > li span").on("click", function(e) {
     $(".submenu li.selected").toggleClass("selected");
@@ -41,5 +46,9 @@ $(document).ready(function() {
     const file = $(this).attr("file");
 
     $("main").load(`./pages/${file}.php`);
+
+    if (window.matchMedia("(max-device-width: 481px)").matches) {
+      openMobHeader();
+    }
   });
 });

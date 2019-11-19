@@ -9,7 +9,16 @@
     <link rel="stylesheet" type="text/css" href="main.css" />
   </head>
   <body>
-    <aside class="header">
+    <div class='mob_header'>
+    <div class="logo">
+        <div class='menu_icon'>
+          <span onClick='openMobHeader()'>☰</span>
+        </div>
+
+        <img src="./src/logo-white.png" />
+      </div>
+    </div>
+    <aside class="header">    
       <div class="logo">
         <img src="./src/logo-white.png" />
       </div>
