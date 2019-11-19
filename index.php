@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>JS Issue Tracker</title>
+    <title>Consitec</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <script src="main.js"></script>
@@ -19,8 +19,8 @@
           <li><span>CONSITEC</span>
             <ul class='submenu'>
               <li file='consitec/sobre'>Sobre nós</li>
-              <li file='consitec/estrutura'>Estrutura organizacional</li>
-              <li file='consitec/governanca'>Estrutura de governança</li>
+              <li file='consitec/estrutura'>Estrutura Organizacional</li>
+              <li file='consitec/governanca'>Estrutura de Governança</li>
             </ul>
           </li>
 
@@ -31,7 +31,7 @@
               <li file='gestao/construcao'>de Construção/Supervisão</li>
               <li file='gestao/capacitacao'>Social: Capacitação</li>
               <li file='gestao/conhecimento'>Social: Conhecimento</li>
-              <li file='gestao/comunidades'>Social: Comunidades de Entorno</li>
+              <li file='gestao/comunidades'>Social: Comunidades do Entorno</li>
               <li file='gestao/capital'>Social: Capital Humano</li>
               <li file='gestao/seguranca'>Social: Segurança/Saúde</li>
             </ul>
