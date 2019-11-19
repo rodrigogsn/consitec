@@ -78,6 +78,10 @@ ul {
   margin: 13px 10px;
 }
 
+.menu_container li a {
+  color: #ffff;
+}
+
 .menu_container li span {
   cursor: pointer;
 }
