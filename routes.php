@@ -81,6 +81,11 @@ Route::set('clientes', function() {
   NavigationController::CreateView('projetos/clientes');
 });
 
+Route::set('projeto', function($project) {
+  
+  NavigationController::CreateView('projetos/projeto/'.$project);
+});
+
 //----------- Contato
 
 Route::set('contato', function() {

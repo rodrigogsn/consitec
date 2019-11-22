@@ -58,8 +58,8 @@
           <li>
             <span>PROJETOS/CLIENTES</span>
             <ul class="submenu">
-              <li><a href="#">Todos os Projetos</a></li>
-              <li><a href="#">Principais Clientes</a></li>
+              <li><a href="projetos">Todos os Projetos</a></li>
+              <li><a href="clientes">Principais Clientes</a></li>
             </ul>
           </li>
 
