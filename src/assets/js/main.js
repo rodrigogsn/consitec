@@ -3,7 +3,28 @@ function openMobileMenu() {
   menu_el.toggleClass("visible");
 }
 
+function ready_menu(page) {
+  let submenu_el = $(`.submenu li a[href="${page}"]`);
+  let menu_el = submenu_el
+    .closest("ul")
+    .parent()
+    .find("span");
+
+  menu_el
+    .toggleClass("selected")
+    .parent()
+    .find(".submenu")
+    .css("display", "inherit");
+
+  submenu_el.parent().toggleClass("selected");
+}
+
 $(document).ready(function() {
+  let path = window.location.pathname.split("/");
+  let page = path[path.length - 1];
+
+  ready_menu(page);
+
   $(".menu > li span").on("click", function(e) {
     $(".submenu li.selected").toggleClass("selected");
 
