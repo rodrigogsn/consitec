@@ -11,7 +11,7 @@
 
 <header>
   <figure>
-    <label>Engenharia Mecânica</label>
+    <label>Eng Mecânica</label>
   </figure>
 </div>
 

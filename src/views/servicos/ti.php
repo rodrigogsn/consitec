@@ -11,7 +11,7 @@
 
 <header>
   <figure>
-    <label>Tecnologia e Informação</label>
+    <label>Tecnologia</label>
   </figure>
 </div>
 

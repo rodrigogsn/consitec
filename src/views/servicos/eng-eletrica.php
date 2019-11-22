@@ -11,7 +11,7 @@
 
 <header>
   <figure>
-    <label>Engenharia Elétrica</label>
+    <label>Eng Elétrica</label>
   </figure>
 </div>
 

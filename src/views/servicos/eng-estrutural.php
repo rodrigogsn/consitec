@@ -11,7 +11,7 @@
 
 <header>
   <figure>
-    <label>Engenharia Estrutural</label>
+    <label>Eng Estrutural</label>
   </figure>
 </div>
 

@@ -11,7 +11,7 @@
 
 <header>
   <figure>
-    <label>Engenharia Civil</label>
+    <label>Eng Civil</label>
   </figure>
 </div>
 

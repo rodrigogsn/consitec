@@ -11,7 +11,7 @@
 
 <header>
   <figure>
-    <label>Infraestruturas Subterrâneas</label>
+    <label>Subterrâneas</label>
   </figure>
 </div>
 
