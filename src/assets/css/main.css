@@ -13,9 +13,12 @@ body {
 }
 
 body {
+  font-family: "Work Sans", sans-serif;
   display: flex;
   flex-direction: row;
 }
+
+/**** **** Navigation Menu **** ****/
 
 aside {
   display: flex;
@@ -23,38 +26,39 @@ aside {
   justify-content: space-between;
 
   background: #003b4a;
-  min-width: 340px;
+  min-width: 320px;
   height: 100vh;
   z-index: 1;
 }
 
-main {
-  display: flex;
-  flex-direction: row;
-  height: 100vh;
-  overflow-y: auto;
+aside a,
+aside a:link,
+aside a:visited,
+aside a:active {
+  color: #ffff;
+  text-decoration: none;
 }
 
 ul {
   padding: 0px;
 }
 
-.mobile_menu {
+.mobile-menu {
   display: none;
 }
 
 .logo {
   display: flex;
   align-items: center;
-  padding: 28px;
+  padding: 40px 20px 0px;
   height: 10%;
 }
 
 .logo img {
-  width: 150px;
+  width: 170px;
 }
 
-.menu_container {
+.menu-container {
   font-family: "Roboto Mono", monospace;
   font-weight: bold;
   height: 70%;
@@ -62,20 +66,20 @@ ul {
   color: #ffff;
 }
 
-.menu_container ul {
+.menu-container ul {
   font-size: 14px;
 }
 
-.menu_container li {
+.menu-container li {
   list-style-type: none;
   margin: 13px 10px;
 }
 
-.menu_container li a {
+.menu-container li a {
   color: #ffff;
 }
 
-.menu_container li span {
+.menu-container li span {
   cursor: pointer;
 }
 
@@ -84,19 +88,21 @@ ul {
   cursor: pointer;
 }
 
-.menu_container li span.selected {
+.menu-container li span.selected {
   font-weight: bold;
   background: #d73228;
   padding: 0px 10px 0px 50px;
   margin-left: -50px;
+  transition: 0.2s all;
 }
 
-.menu_container li.selected {
+.menu-container li.selected {
   font-weight: bold;
   background: #d73228;
   box-shadow: 0 0 0 3px #d73228;
   padding: 0px 10px 0px 50px;
   margin-left: -40px;
+  transition: 0.2s all;
 }
 
 .submenu {
@@ -108,4 +114,92 @@ footer {
   color: #ffff;
   padding: 20px;
   height: 10%;
+}
+
+/**** **** Main Content **** ****/
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+header figure {
+  background-repeat: no-repeat;
+  position: relative;
+  height: 30vh;
+}
+
+header figure label {
+  font-family: "Roboto Mono", sans-serif;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-weight: bold;
+  color: #ffff;
+  font-size: 20vh;
+  position: absolute;
+  bottom: -35px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 60px;
+}
+
+section h1 {
+  max-width: 55%;
+  margin: 45px 0px 30px;
+  z-index: 1;
+  font-family: "Roboto Mono", sans-serif;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-size: 56px;
+  color: #003b4a;
+  font-weight: bolder;
+}
+
+section h2 {
+  margin: 40px 0px 30px;
+  z-index: 1;
+  font-family: "Roboto Mono", sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: initial;
+  color: #003b4a;
+  font-weight: bolder;
+}
+
+section i {
+  font-size: 18px;
+  vertical-align: middle;
+  padding: 10px 8px;
+  background: #d73228;
+  margin-right: 20px;
+  margin-left: -60px;
+}
+
+section div {
+  display: flex;
+  flex-direction: column;
+
+  width: 50%;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+section p {
+  margin-bottom: 20px;
+}
+
+section p strong {
+  font-weight: bold;
 }

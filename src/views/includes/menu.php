@@ -1,18 +1,22 @@
-<div class="mobile_menu">
+<div class="mobile-menu">
     <div class="logo">
-        <div class="menu_icon">
+        <div class="menu-icon">
           <span onClick="openMobileMenu()">☰</span>
         </div>
-        <img src="./src/assets/img/logo-white.png"/>
+        <a href="./">
+          <img src="./src/assets/img/logo-white.png"/>
+        </a>
       </div>
     </div>
 
     <aside>    
       <div class="logo">
-        <img src="./src/assets/img/logo-white.png"/>
+        <a href="./">
+          <img src="./src/assets/img/logo-white.png"/>
+        </a>
       </div>
 
-      <nav class="menu_container">
+      <nav class="menu-container">
         <ul class="menu">
           <li>
             <span>CONSITEC</span>

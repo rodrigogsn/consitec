@@ -3,7 +3,7 @@
     flex-direction: column !important;
   }
 
-  .mobile_menu {
+  .mobile-menu {
     display: flex !important;
     height: 10%;
     background: #003b4a;
@@ -13,25 +13,24 @@
     z-index: 2;
   }
 
-  .mobile_menu .logo {
+  .mobile-menu .logo {
     width: 100% !important;
     justify-content: flex-start !important;
   }
 
-  .mobile_menu span {
+  .mobile-menu span {
     font-size: 50px;
     color: #ffff;
   }
 
-  .menu,
-  .fake_header {
+  .menu {
     height: 100vh !important;
     position: absolute !important;
     display: none !important;
     width: 100% !important;
   }
 
-  .menu_container {
+  .menu-container {
     font-size: 50px !important;
     margin-top: 20% !important;
   }

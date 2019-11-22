@@ -53,8 +53,8 @@ Route::set('servicos-construcao-civil', function() {
 Route::set('servicos-eng-civil', function() {
   NavigationController::CreateView('servicos/eng-civil');
 });
-Route::set('servicos-eng-eletricas', function() {
-  NavigationController::CreateView('servicos/eng-eletricas');
+Route::set('servicos-eng-eletrica', function() {
+  NavigationController::CreateView('servicos/eng-eletrica');
 });
 Route::set('servicos-eng-estrutural', function() {
   NavigationController::CreateView('servicos/eng-estrutural');
