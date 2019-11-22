@@ -16,7 +16,8 @@
 </div>
 
 <section>
-  <h1>Gestão Social: Capital Humano</h1>
+  <h3>Gestão Social</h3>
+  <h1>Capital Humano</h1>
   <div>
     <p>
       A  gestão de pessoas é um dos pilares da estratégia de negócios. Por isso, a CONSITEC tem o compromisso de oferecer aos seus colaboradores oportunidades de aprendizado e de desenvolvimento de habilidades, com investimentos em treinamentos e capacitações, além de incentivos para que os ambientes de trabalho sejam cada vez mais colaborativos, estimulando o potencial desse público. 
