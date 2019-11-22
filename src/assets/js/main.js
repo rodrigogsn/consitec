@@ -37,14 +37,14 @@ $(document).ready(function() {
         .toggleClass("selected")
         .parent()
         .find(".submenu")
-        .toggle("show");
+        .toggle(250);
     }
 
     $(this)
       .toggleClass("selected")
       .parent()
       .find(".submenu")
-      .toggle("show");
+      .toggle(250);
   });
 
   $(".submenu li").on("click", function(e) {
