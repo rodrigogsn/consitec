@@ -13,7 +13,7 @@
   <figure>
     <label>Eng Civil</label>
   </figure>
-</div>
+</header>
 
 <section>
   <h1>Engenharia Civil</h1>

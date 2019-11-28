@@ -13,7 +13,7 @@
   <figure>
     <label>Sobre nós</label>
   </figure>
-</div>
+</header>
 
 <section>
   <h1>Sobre nós</h1>

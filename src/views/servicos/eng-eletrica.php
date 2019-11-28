@@ -13,7 +13,7 @@
   <figure>
     <label>Eng Elétrica</label>
   </figure>
-</div>
+</header>
 
 <section>
   <h1>Engenharia Elétrica</h1>

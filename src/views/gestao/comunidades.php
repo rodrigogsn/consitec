@@ -7,13 +7,18 @@
     background-size: cover;
     background-position: 0% 60%;
   }
+
+  section img {
+    height: auto;
+    max-width: 360px;
+  }
 </style>
 
 <header>
   <figure>
     <label>Comunidades</label>
   </figure>
-</div>
+</header>
 
 <section>
   <h3>Gestão Social</h3>
@@ -22,6 +27,8 @@
     <p>
       Com o intuito de promover o desenvolvimento pessoal e profissional, a CONSITEC prioriza a educação e a geração de trabalho e renda das populações do entorno de suas operações, de modo a fomentar a inclusão e ativar a economia das comunidades. 
     </p>
+
+    <img src="./src/assets/img/gestao/social-entorno.png" alt="Fotos da comunidades do entorno">
   </div>
 </section>
 

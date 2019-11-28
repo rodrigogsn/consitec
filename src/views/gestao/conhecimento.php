@@ -13,14 +13,26 @@
   <figure>
     <label>Conhecimento</label>
   </figure>
-</div>
+</header>
 
 <section>
   <h3>Gestão Social</h3>
   <h1>Conhecimento</h1>
   <div>
     <p>
-      A CONSITEC realiza diversas iniciativas para preservar e disseminar entre os colaboradores a inteligência corporativa adquirida nos Projetos. Dentre elas estão às divulgações de boas práticas na intranet da Empresa, a atuação das áreas de Governança e Qualidade, que por natureza são responsáveis por apoiar na unificação de processos e compartilhamento de lições aprendidas na Companhia, e até mesmo a realização de fóruns internos específicos. Nesses espaços são debatidos os aprendizados nos Projetos e apresentados os resultados das Pesquisas de Satisfação dos Clientes, realizada anualmente. Essas atividades permitem correções de rumo durante a execução dos Projetos em andamento. Na busca pela melhoria contínua, a CONSITEC pretende fortalecer os processos corporativos em todos os níveis da Organização e estabelecer uma estrutura voltada para a qualidade total.
+      A CONSITEC realiza diversas iniciativas para preservar e disseminar entre os colaboradores a inteligência corporativa adquirida nos Projetos.
+    </p>
+
+    <p>  
+      Dentre elas estão às divulgações de boas práticas na intranet da Empresa, a atuação das áreas de Governança e Qualidade, que por natureza são responsáveis por apoiar na unificação de processos e compartilhamento de lições aprendidas na Companhia, e até mesmo a realização de fóruns internos específicos.
+    </p>
+      
+    <p>  
+      Nesses espaços são debatidos os aprendizados nos Projetos e apresentados os resultados das Pesquisas de Satisfação dos Clientes, realizada anualmente. Essas atividades permitem correções de rumo durante a execução dos Projetos em andamento.
+    </p>
+
+    <p>  
+      Na busca pela melhoria contínua, a CONSITEC pretende fortalecer os processos corporativos em todos os níveis da Organização e estabelecer uma estrutura voltada para a qualidade total.
     </p>
   </div>
 </section>

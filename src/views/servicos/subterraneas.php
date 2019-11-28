@@ -13,7 +13,7 @@
   <figure>
     <label>Subterrâneas</label>
   </figure>
-</div>
+</header>
 
 <section>
   <h1>Infraestruturas Subterrâneas</h1>

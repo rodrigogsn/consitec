@@ -123,6 +123,7 @@ main {
   flex-direction: column;
   height: 100vh;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 header {
@@ -135,6 +136,7 @@ header figure {
   background-repeat: no-repeat;
   position: relative;
   height: 30vh;
+  z-index: -1;
 }
 
 header figure label {
@@ -146,6 +148,15 @@ header figure label {
   font-size: 20vh;
   position: absolute;
   bottom: -35px;
+
+  /* Avoid User Selection */
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
 }
 
 section {
@@ -155,9 +166,14 @@ section {
   margin-left: 60px;
 }
 
+section h1:first-child,
+section h3:first-child {
+  margin-top: 45px !important;
+}
+
 section h1 {
   max-width: 55%;
-  margin: 45px 0px 30px;
+  margin-bottom: 30px;
   z-index: 1;
   font-family: "Roboto Mono", sans-serif;
   text-transform: uppercase;
@@ -176,6 +192,16 @@ section h2 {
   line-height: initial;
   color: #003b4a;
   font-weight: bolder;
+}
+
+section h3 {
+  font-family: "Roboto Mono", sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  background-color: #d73228;
+  color: white;
+  width: fit-content;
+  padding: 6px;
 }
 
 section i {

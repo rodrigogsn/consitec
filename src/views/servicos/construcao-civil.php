@@ -13,7 +13,7 @@
   <figure>
     <label>Construção Civil</label>
   </figure>
-</div>
+</header>
 
 <section>
   <h1>Construção Civil</h1>

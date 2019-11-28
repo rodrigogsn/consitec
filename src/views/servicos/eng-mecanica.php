@@ -13,7 +13,7 @@
   <figure>
     <label>Eng Mecânica</label>
   </figure>
-</div>
+</header>
 
 <section>
   <h1>Engenharia Mecânica</h1>

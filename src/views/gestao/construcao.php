@@ -13,10 +13,10 @@
   <figure>
     <label>Construção</label>
   </figure>
-</div>
+</header>
 
 <section>
-  <h1>Construção e Supervisão de Obras</h1>
+  <h1>Construção<br/>e Supervisão<br/>de Obras</h1>
   <div>
     <p>
       Com as construções e os avanços tecnológicos tornando-se ainda mais complexos, certificar-se do processo de gerenciamento das equipes é crucial para o negocio.

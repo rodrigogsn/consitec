@@ -13,7 +13,7 @@
   <figure>
     <label>Eng Estrutural</label>
   </figure>
-</div>
+</header>
 
 <section>
   <h1>Engenharia Estrutural</h1>

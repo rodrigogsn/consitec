@@ -13,7 +13,7 @@
   <figure>
     <label>Segurança</label>
   </figure>
-</div>
+</header>
 
 <section>
   <h3>Gestão Social</h3>

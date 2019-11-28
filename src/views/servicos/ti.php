@@ -13,7 +13,7 @@
   <figure>
     <label>Tecnologia</label>
   </figure>
-</div>
+</header>
 
 <section>
   <h1>Tecnologia e Informação</h1>
