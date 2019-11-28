@@ -1,8 +1,3 @@
-function openMobileMenu() {
-  let menu_el = $(".menu");
-  menu_el.toggleClass("visible");
-}
-
 function ready_menu(page) {
   let isProject = false;
   if (page == "projeto") {
