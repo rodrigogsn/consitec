@@ -4,6 +4,12 @@ function openMobileMenu() {
 }
 
 function ready_menu(page) {
+  let isProject = false;
+  if (page == "projeto") {
+    page = "projetos";
+    isProject = true;
+  }
+
   let submenu_el = $(`.submenu li a[href="${page}"]`);
   let menu_el = submenu_el
     .closest("ul")
@@ -15,8 +21,9 @@ function ready_menu(page) {
     .parent()
     .find(".submenu")
     .css("display", "inherit");
-
-  submenu_el.parent().toggleClass("selected");
+  if (!isProject) {
+    submenu_el.parent().toggleClass("selected");
+  }
 }
 
 $(document).ready(function() {

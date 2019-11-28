@@ -12,14 +12,17 @@
         $projeto_path = realpath($projetos_path."/".$value);
         $projeto_first_img = scandir($projeto_path)[2];
         $projeto_name = substr($value, 3);
+        $projeto_number = substr($value, 0, 2);
 
         echo("
-          <div class='projeto' style='background-image:url(\"./src/projetos/{$value}/{$projeto_first_img}\")'>
-            <span>
-              <label class='title'>{$projeto_name}</label>
-              <label class='type'>Construção civil</label>
-            </span>
-          </div>
+          <a href='projeto?project={$projeto_number}' class='link'>
+            <div class='projeto' style='background-image:url(\"./src/projetos/{$value}/{$projeto_first_img}\")'>
+              <span>
+                <label class='title'>{$projeto_name}</label>
+                <label class='type'>Construção civil</label>
+              </span>
+            </div>
+          </a>
           ");
       }
     }

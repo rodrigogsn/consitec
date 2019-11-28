@@ -213,6 +213,12 @@ section p strong {
   position: relative;
 }
 
+.projetos_container a {
+  flex: 0 0 33.3333%;
+  position: relative;
+  text-decoration: none;
+}
+
 .projetos_container .projeto {
   background-size: cover;
   display: flex;
@@ -220,8 +226,6 @@ section p strong {
   flex: 0 0 33.3333%;
   min-width: 300px;
   min-height: 300px;
-  position: relative;
-  cursor: pointer;
 }
 
 .projetos_container .projeto:after {
