@@ -27,6 +27,13 @@ function ready_menu(page) {
   }
 }
 
+function openMobileMenu() {
+  let header_el = $(".header");
+  let menu_el = $(".menu");
+  header_el.toggleClass("visible");
+  menu_el.toggleClass("visible");
+}
+
 $(document).ready(function() {
   let path = window.location.pathname.split("/");
   let page = path[path.length - 1];
@@ -71,5 +78,20 @@ $(document).ready(function() {
     if (window.matchMedia("(max-device-width: 481px)").matches) {
       openMobileMenu();
     }
+  });
+
+  var btn = $("#myBtn");
+
+  $("main").scroll(function() {
+    if ($("main").scrollTop() > 300) {
+      btn.addClass("show");
+    } else {
+      btn.removeClass("show");
+    }
+  });
+
+  btn.on("click", function(e) {
+    e.preventDefault();
+    $("html, body, main").animate({ scrollTop: 0 }, "300");
   });
 });
