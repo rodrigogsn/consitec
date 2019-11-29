@@ -51,7 +51,7 @@
 <section>
   <h1>Fale Conosco</h1>
 
-  <div class='contact_container'>
+  <div class='contact-container'>
     <span>
       <p>
         Entre em contato conosco utilizando o formulário abaixo, ou encontre a CONSITEC nos diversos canais de comunicação disponíveis.
@@ -74,14 +74,14 @@
       </form>
     </span>
 
-    <span class='contact_data'>
+    <span class='contact-data'>
       <h3>CONSITEC ENGENHARIA E TECNOLOGIA LTDA. 02.243.019/0001-94</h3>
 
-      <span><i class="fas fa-map-marker-alt"></i> <label>RUA ARTHUR FRIEDEREICH, 43 VILA RIO BRANCO/SP</label></span>
+      <span><i class="fas fa-map-marker-alt"></i> <label>Rua Arthur Friedenreich, 43 - Vila Rio Branco/SP</label></span>
       <span><i class="fas fa-phone-alt"></i> <label>(11) 2041-8711</label></span>
-      <span><i class="fas fa-envelope"></i> <label>CONTATO@CONSITEC.ENG.BR</label></span>
-      <span><i class="fab fa-facebook-f"></i> <label>CONSITEC.ENG.TECNOLOGIA</label></span>
-      <span><i class="fab fa-instagram"></i> <label>@CONSITEC.ENG.TECNOLOGIA</label></span>
+      <span><i class="fas fa-envelope"></i> <label>contato@consitec.eng.br</label></span>
+      <span><i class="fab fa-facebook-f"></i> <label>consitec.eng.tecnologia</label></span>
+      <span><i class="fab fa-instagram"></i> <label>@consitec.eng.tecnologia</label></span>
     </span>
   </div>
 

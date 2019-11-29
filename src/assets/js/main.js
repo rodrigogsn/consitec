@@ -75,7 +75,7 @@ $(document).ready(function() {
     }
     $(this).toggleClass("selected");
 
-    if (window.matchMedia("(max-device-width: 481px)").matches) {
+    if (window.matchMedia("(max-device-width: 680px)").matches) {
       openMobileMenu();
     }
   });
@@ -93,5 +93,23 @@ $(document).ready(function() {
   btn.on("click", function(e) {
     e.preventDefault();
     $("html, body, main").animate({ scrollTop: 0 }, "300");
+  });
+
+  if (window.matchMedia("(max-device-width: 680px)").matches) {
+    $("footer").insertAfter("main");
+
+    const homeSlider = $("main > div").hasClass("home-slider");
+    console.log(homeSlider);
+    if (homeSlider) {
+      $("main").addClass("mobile-slider");
+    }
+  }
+
+  /** Slick Home Slider Settings */
+  $(".home-slider").slick({
+    autoplay: false,
+    autoplaySpeed: 3000,
+    arrows: false,
+    pauseOnHover: false
   });
 });

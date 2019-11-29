@@ -11,7 +11,7 @@
       Abaixo destacamos os principais clientes que nos ajudaram a construir a nossa história:
     </p>   
   </div>
-  <div class="clients_container">
+  <div class="clients-container">
     <a href="http://www.fde.sp.gov.br/" target="_blank">
       <img src="<?php echo $clients_path."/fde.jpg"?>" alt="">
     </a>

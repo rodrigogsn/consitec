@@ -3,17 +3,13 @@
 
 <style>
   section img {
-    max-width: 500px;
+    margin-top: 30px;
+    max-width: 700px;
   }
 </style>
 
 <section>
   <h1>Estrutura<br/>Organizacional</h1>
-  <div>
-    <p>
-      Para melhor performance baseada no modelo consultivo, segue a estrutura organizacional da CONSITEC:
-    </p>
-  </div>
 
   <img draggable="false" src="./src/assets/img/consitec/chart-organograma.svg" alt="Organograma Consitec">
 </section>

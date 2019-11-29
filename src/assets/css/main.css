@@ -21,7 +21,7 @@ body {
   flex-direction: row;
 }
 
-/**** **** Navigation Menu **** ****/
+/**** **** NAVIGATION MENU **** ****/
 
 aside {
   display: flex;
@@ -38,7 +38,7 @@ aside a,
 aside a:link,
 aside a:visited,
 aside a:active {
-  color: #ffff;
+  color: white;
   text-decoration: none;
 }
 
@@ -80,7 +80,7 @@ footer a {
   font-weight: bold;
   height: 70%;
   padding: 20px 0px 20px 20px;
-  color: #ffff;
+  color: white;
 }
 
 .menu-container ul {
@@ -93,7 +93,7 @@ footer a {
 }
 
 .menu-container li a {
-  color: #ffff;
+  color: white;
 }
 
 .menu-container li span {
@@ -128,11 +128,11 @@ footer a {
 }
 
 footer {
-  color: #ffff;
+  color: white;
   padding: 20px;
 }
 
-/**** **** Main Content **** ****/
+/**** **** MAIN CONTENT **** ****/
 
 main {
   display: flex;
@@ -162,13 +162,12 @@ header figure label {
   text-transform: uppercase;
   white-space: nowrap;
   font-weight: bold;
-  color: #ffff;
-  font-size: 20vh;
+  color: #ffffff82;
+  font-size: 28vh;
   position: absolute;
   bottom: -35px;
 
   /* Avoid User Selection */
-
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
   -khtml-user-select: none; /* Konqueror HTML */
@@ -186,7 +185,7 @@ section {
 
 section h1:first-child,
 section h3:first-child {
-  margin-top: 45px !important;
+  margin-top: 45px;
 }
 
 section h1 {
@@ -257,7 +256,85 @@ section ul li::before {
   margin-left: -1em;
 }
 
-/***** **** Projects **** *****/
+/**** **** HOME SLIDER **** ****/
+
+.home-slider,
+.home-slider-container {
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+}
+
+.home-slider a,
+.home-slider a:link,
+.home-slider a:visited,
+.home-slider a:hover,
+.home-slider a:active {
+  text-decoration: none;
+}
+
+.home-slider-desc {
+  position: absolute;
+  bottom: 0;
+}
+
+.home-slider-desc h4 {
+  font-family: "Roboto Mono", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 300px;
+  color: #d73228;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  margin: 0 -40px;
+
+  /* Avoid User Selection */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+.home-slider-desc h1 {
+  background: #d73228;
+  color: #003b4a;
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: 48vw;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 3vw;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.home-slider-desc p {
+  max-width: 25vw;
+  background: #003b4a;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 16px;
+  color: white;
+}
+
+.home-slider-desc span:nth-child(2) {
+  width: auto;
+  display: block;
+  padding: 10px 25px 10px 10px;
+}
+
+.home-slider-desc i {
+  position: relative;
+  color: #d73228;
+  float: right;
+}
+
+.slick-list,
+.slick-track {
+  height: -webkit-fill-available !important;
+}
+
+/***** **** PROJECTS **** *****/
 
 .project-title {
   white-space: initial;
@@ -335,13 +412,14 @@ section ul li::before {
   font-size: 12px;
 }
 
-/***** ******** ******** **** CONTATO ***** ******** ******** ****/
-.contact_container {
+/***** **** CONTACT ***** ****/
+
+.contact-container {
   display: flex;
   flex-direction: row;
 }
 
-.contact_container form {
+.contact-container form {
   color: #003b4a;
   font-weight: bolder;
 
@@ -349,15 +427,15 @@ section ul li::before {
   flex-direction: column;
 }
 
-.contact_container > span {
+.contact-container > span {
   width: 50%;
 }
 
-.contact_container > span:first-child {
+.contact-container > span:first-child {
   margin-right: 30px;
 }
 
-.contact_container form input[type="text"],
+.contact-container form input[type="text"],
 textarea {
   background-color: #eaeaea;
   border: none;
@@ -366,11 +444,11 @@ textarea {
   margin-bottom: 10px;
 }
 
-.contact_container form textarea {
+.contact-container form textarea {
   height: 80px;
 }
 
-.contact_container form input[type="submit"] {
+.contact-container form input[type="submit"] {
   background-color: #d73228;
   color: #fff;
   border-bottom: 5px solid #940900;
@@ -380,53 +458,53 @@ textarea {
   height: 35px;
 }
 
-.contact_container h3 {
+.contact-container h3 {
   color: #003b4a;
   font-weight: bolder;
 }
 
-.contact_container i {
+.contact-container i {
   margin-left: 0px;
   margin-right: 10px;
   min-width: 20px;
   text-align: center;
 }
 
-.contact_data {
+.contact-data {
   display: flex;
   flex-direction: column;
 }
 
-.contact_data label {
+.contact-data label {
   color: #003b4a;
 }
 
-.contact_data span,
-.contact_data h3 {
+.contact-data span,
+.contact-data h3 {
   display: flex;
   flex-direction: row;
   padding-bottom: 20px;
   align-items: center;
 }
 
-/***** ******** ******** **** CLIENTES **** ******** ******** *****/
+/***** **** CLIENTES **** *****/
 
-.clients_container {
+.clients-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 80%;
 }
 
-.clients_container a {
+.clients-container a {
   padding: 20px;
 }
 
-.clients_container a img {
+.clients-container a img {
   width: 150px;
 }
 
-/***** ******** ******** **** SLIDER PROJECTS **** ******** ******** *****/
+/***** **** SLIDER PROJECTS **** *****/
 
 /* Slideshow container */
 .slideshow-container {
@@ -519,37 +597,37 @@ textarea {
 
 #myBtn {
   display: inline-block;
-  background-color: #ff9800;
+  background-color: #003b4af0;
   width: 50px;
   height: 50px;
   text-align: center;
-  border-radius: 4px;
-  margin: 30px;
+  margin: 10px;
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 20px;
+  right: 20px;
   transition: background-color 0.3s;
   z-index: 1000;
   transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
   opacity: 0;
   visibility: hidden;
+  border: 0;
+  box-shadow: 0 1px 12px #0000002e;
 }
+
 #myBtn:hover {
   cursor: pointer;
-  background-color: #333;
 }
-#myBtn:active {
-  background-color: #555;
-}
+
 #myBtn::after {
   content: "\f077";
-  font-family: FontAwesome;
+  font-family: "FontAwesome";
   font-weight: normal;
   font-style: normal;
   font-size: 2em;
   line-height: 50px;
   color: #fff;
 }
+
 #myBtn.show {
   opacity: 1;
   visibility: visible;
