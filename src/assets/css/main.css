@@ -406,6 +406,23 @@ textarea {
   align-items: center;
 }
 
+/***** ******** ******** **** CLIENTES **** ******** ******** *****/
+
+.clients_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.clients_container a {
+  padding: 20px;
+}
+
+.clients_container a img {
+  width: 150px;
+}
+
 /***** ******** ******** **** SLIDER PROJECTS **** ******** ******** *****/
 
 /* Slideshow container */
