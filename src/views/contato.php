@@ -80,8 +80,8 @@
       <span><i class="fas fa-map-marker-alt"></i> <label>RUA ARTHUR FRIEDEREICH, 43 VILA RIO BRANCO/SP</label></span>
       <span><i class="fas fa-phone-alt"></i> <label>(11) 2041-8711</label></span>
       <span><i class="fas fa-envelope"></i> <label>CONTATO@CONSITEC.ENG.BR</label></span>
-      <span><i class="fab fa-facebook-f"></i> <label>CONSITEC.ENGENHARIA</label></span>
-      <span><i class="fab fa-instagram"></i> <label>@CONSITEC.ENGENHARIA</label></span>
+      <span><i class="fab fa-facebook-f"></i> <label>CONSITEC.ENG.TECNOLOGIA</label></span>
+      <span><i class="fab fa-instagram"></i> <label>@CONSITEC.ENG.TECNOLOGIA</label></span>
     </span>
   </div>
 

@@ -75,8 +75,8 @@
     <p>
       <a href="#">Termos de Uso</a>
       <a href="#">Política de Privacidade</a>
-      <a href="#"><i class="fab fa-facebook-f"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/consitec.eng.tecnologia/" target='_blank'><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/consitec.eng.tecnologia/" target='_blank'><i class="fab fa-instagram"></i></a>
     </p>
   </footer>
 </aside>
