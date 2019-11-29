@@ -9,6 +9,8 @@
 html,
 body {
   overflow-y: hidden;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smooting: antialiased !important;
 }
 
 body {
@@ -126,7 +128,6 @@ footer a {
 footer {
   color: #ffff;
   padding: 20px;
-  height: 10%;
 }
 
 /**** **** Main Content **** ****/
