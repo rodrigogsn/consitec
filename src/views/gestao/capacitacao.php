@@ -1,4 +1,4 @@
-<?php $title = "Gestão Social: Capacitação" ?>
+<?php $title = "Gestão Social: Capacitação e Desenvolvimento" ?>
 <?php include "./src/views/includes/head.php" ?>
 
 <style>

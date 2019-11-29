@@ -1,4 +1,4 @@
-<?php $title = "Gestão Social: Comunidades do Entorno" ?>
+<?php $title = "Gestão Social: Desenvolvimento das Comunidades do Entorno" ?>
 <?php include "./src/views/includes/head.php" ?>
 
 <style>
