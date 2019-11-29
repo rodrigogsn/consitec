@@ -27,6 +27,13 @@ function ready_menu(page) {
   }
 }
 
+function openMobileMenu() {
+  let header_el = $(".header");
+  let menu_el = $(".menu");
+  header_el.toggleClass("visible");
+  menu_el.toggleClass("visible");
+}
+
 $(document).ready(function() {
   let path = window.location.pathname.split("/");
   let page = path[path.length - 1];
