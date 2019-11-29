@@ -70,7 +70,7 @@
   </nav>
 
   <footer>
-    <p>Copyright 2019 - Consitec Engenharia e Tecnologia.</p>
+    <p>Copyright <?=date("Y")?> - Consitec Engenharia e Tecnologia.</p>
     <p>Todos os direitos reservados.</p>
     <p>
       <a href="#">Termos de Uso</a>
