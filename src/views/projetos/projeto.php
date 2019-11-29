@@ -1,5 +1,5 @@
 <?php 
-  error_reporting(E_ERROR | E_PARSE);
+  // error_reporting(E_ERROR | E_PARSE);
 
   $projetos_path = realpath(__DIR__."/../../projetos");
   $projetos = scandir($projetos_path);
@@ -13,7 +13,7 @@
 
   $projeto_path = realpath($projetos_path."/".reset($projeto));
 
-  $content = !file_exists(file_get_contents("{$projeto_path}\content.html")) ? file_get_contents("{$projeto_path}\content.html") : '';
+  $content = !file_exists(file_get_contents("{$projeto_path}/content.html")) ? file_get_contents("{$projeto_path}/content.html") : '';
 
   $images_path = scandir($projeto_path."/images");
 ?>
