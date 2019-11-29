@@ -13,6 +13,7 @@
   <title><?= $title ?></title>
 
   <link rel="stylesheet" type="text/css" href="./src/assets/css/main.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
   <script src="https://kit.fontawesome.com/81fa77429e.js" crossorigin="anonymous"></script>
