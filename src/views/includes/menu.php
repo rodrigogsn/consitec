@@ -63,8 +63,8 @@
             </ul>
           </li>
 
-          <li>
-            <span>CONTATO</span>
+          <li class='contato'>
+            <span><a href="contato">CONTATO</a></span>
           </li>
         </ul>
       </nav>

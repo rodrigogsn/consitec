@@ -1,8 +1,11 @@
 function ready_menu(page) {
   let isProject = false;
+  let isContact = false;
   if (page == "projeto") {
     page = "projetos";
     isProject = true;
+  } else if (page == "contato") {
+    isContact = true;
   }
 
   let submenu_el = $(`.submenu li a[href="${page}"]`);
@@ -16,7 +19,10 @@ function ready_menu(page) {
     .parent()
     .find(".submenu")
     .css("display", "inherit");
-  if (!isProject) {
+
+  if (isContact) {
+    $(`li.contato span`).toggleClass("selected");
+  } else if (!isProject) {
     submenu_el.parent().toggleClass("selected");
   }
 }
