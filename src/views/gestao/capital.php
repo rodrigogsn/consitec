@@ -13,7 +13,7 @@
   <figure>
     <label>Capital Humano</label>
   </figure>
-</div>
+</header>
 
 <section>
   <h3>Gestão Social</h3>
@@ -31,10 +31,14 @@
       A Empresa promove treinamentos específicos, focados no desenvolvimento técnico e de habilidades conforme a área de atuação dos colaboradores. Também desenvolve outras ações: 
     </p>
 
-    <h2><span><i class="fas fa-users"></i></span>Programa de capacitação em gestão e tecnologia da construção:  </h2>
+    <h2><span><i class="fas fa-graduation-cap"></i></span>Programa de capacitação em gestão e tecnologia da construção:</h2>
 
     <p>
-      Tem o objetivo de oferecer aperfeiçoamento técnico e de gestão de obras, e inicialmente era direcionado a colaboradores da área de Produção e Projetos. Em 2018 foi estendido às equipes das áreas de Orçamento e Cadeia Produtiva. Por meio dele, os participantes discutem temas críticos do dia a dia nos Projetos, de forma a elevar a excelência e aprimorar a qualidade das entregas. 
+      Tem o objetivo de oferecer aperfeiçoamento técnico e de gestão de obras, e inicialmente era direcionado a colaboradores da área de Produção e Projetos. Em 2018 foi estendido às equipes das áreas de Orçamento e Cadeia Produtiva.
+    </p>
+    
+    <p> 
+      Por meio dele, os participantes discutem temas críticos do dia a dia nos Projetos, de forma a elevar a excelência e aprimorar a qualidade das entregas. 
     </p>
   </div>
 </section>

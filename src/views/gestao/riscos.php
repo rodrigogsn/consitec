@@ -13,13 +13,17 @@
   <figure>
     <label>Riscos</label>
   </figure>
-</div>
+</header>
 
 <section>
-  <h1>Gestão de Riscos</h1>
+  <h1>Gestão<br/>de Riscos</h1>
   <div>
     <p>
-      A gestão de riscos, na CONSITEC, está a cargo do Comitê Diretor. É conduzida com base na Matriz de Riscos Corporativos, componente fundamental para a discussão da estratégia da Empresa. Por considerar todas as etapas dos negócios — como as relacionadas a aspectos regulatórios, reputação, responsabilidade pela cadeia produtiva, entre outros — tal matriz permite vislumbrar a interface de risco nas diversas frentes. Com essa visão global, a CONSITEC tem conseguido identificar inter-relações entre operação e risco, priorizar iniciativas e tomar decisões com melhor embasamento. A Empresa introduziu um Comitê Técnico de Gestão de Riscos, com foco em aspectos operacionais, e busca atuar nos casos de maior severidade identificados nos Projetos. 
+      A gestão de riscos, na CONSITEC, está a cargo do Comitê Diretor. É conduzida com base na Matriz de Riscos Corporativos, componente fundamental para a discussão da estratégia da Empresa. Por considerar todas as etapas dos negócios — como as relacionadas a aspectos regulatórios, reputação, responsabilidade pela cadeia produtiva, entre outros — tal matriz permite vislumbrar a interface de risco nas diversas frentes.
+    </p>
+    
+    <p>  
+      Com essa visão global, a CONSITEC tem conseguido identificar inter-relações entre operação e risco, priorizar iniciativas e tomar decisões com melhor embasamento. A Empresa introduziu um Comitê Técnico de Gestão de Riscos, com foco em aspectos operacionais, e busca atuar nos casos de maior severidade identificados nos Projetos. 
     </p>
 
     <p>

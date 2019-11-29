@@ -5,7 +5,7 @@
   header figure {
     background-image: url("./src/assets/img/servicos/eng-civil.jpg");
     background-size: cover;
-    background-position: 0% 70%;
+    background-position: 0% 44%;
   }
 </style>
 
@@ -13,10 +13,10 @@
   <figure>
     <label>Eng Civil</label>
   </figure>
-</div>
+</header>
 
 <section>
-  <h1>Engenharia Civil</h1>
+  <h1>Engenharia<br/>Civil</h1>
   <div>
     <p>
       Transporte e infraestrutura de alta qualidade são a alma das nossas comunidades, cidades e até mesmo de nossas economias. Com a população mundial crescendo tão rapidamente, é vital que o que criamos seja construído para durar.

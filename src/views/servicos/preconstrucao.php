@@ -13,7 +13,7 @@
   <figure>
     <label>Pré-Construção</label>
   </figure>
-</div>
+</header>
 
 <section>
   <h1>Pré-Construção</h1>

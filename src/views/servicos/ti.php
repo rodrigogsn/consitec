@@ -13,10 +13,10 @@
   <figure>
     <label>Tecnologia</label>
   </figure>
-</div>
+</header>
 
 <section>
-  <h1>Tecnologia e Informação</h1>
+  <h1>Tecnologia<br/>e Informação</h1>
   <div>
     <p>
       A era digital tem visto o mundo dos negócios se transformar como nunca. Nós damos sentido a essas complexidades que mudam rapidamente e ajudamos nossos clientes a aproveitar o desempenho das mudanças tecnológicas.

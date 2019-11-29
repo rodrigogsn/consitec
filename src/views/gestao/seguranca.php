@@ -13,11 +13,11 @@
   <figure>
     <label>Segurança</label>
   </figure>
-</div>
+</header>
 
 <section>
   <h3>Gestão Social</h3>
-  <h1>Segurança e Saúde Operacional</h1>
+  <h1>Segurança<br/>e Saúde<br/>Operacional</h1>
   <div>
     <p>
       A CONSITEC é reconhecida por ser uma das empresas com melhores resultados na área de Segurança e Saúde Ocupacional. Os dados confirmam essa percepção, tanto a taxa de frequência de acidentes quanto a taxa de gravidade, são classificados como muito bons pela Organização Internacional do Trabalho (OIT). Esse resultado reflete o fato de o planejamento da construção ser feito sob o olhar de segurança. A Empresa tem o compromisso de oferecer processos construtivos mais seguros, o que inclui ações preventivas, como treinamentos e palestras de conscientização, promovidas para conscientizar os colaboradores e os trabalhadores das empresas contratadas sobre a importância de boas práticas no ambiente de trabalho. 

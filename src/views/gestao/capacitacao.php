@@ -1,4 +1,4 @@
-<?php $title = "Gestão Social: Capacitação" ?>
+<?php $title = "Gestão Social: Capacitação e Desenvolvimento" ?>
 <?php include "./src/views/includes/head.php" ?>
 
 <style>
@@ -13,11 +13,11 @@
   <figure>
     <label>Capacitação</label>
   </figure>
-</div>
+</header>
 
 <section>
   <h3>Gestão Social</h3>
-  <h1>Capacitação</h1>
+  <h1>Capacitação e<br/>Desenvolvimento</h1>
   <div>
     <p>
       Orientadas pela cultura de alto desempenho, a CONSITEC busca desenvolver continuamente seus Integrantes. Os programas de capacitação e desenvolvimento profissional são executados de acordo com as características e necessidades de cada Negócio, sempre baseados no princípio da Educação pelo e para o Trabalho.

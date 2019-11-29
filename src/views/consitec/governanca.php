@@ -13,7 +13,7 @@
   <figure>
     <label>Estrutura de Governança</label>
   </figure>
-</div>
+</header>
 
 <section>
   <h1>Estrutura<br/>de Governança</h1>
