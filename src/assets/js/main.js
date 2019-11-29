@@ -79,4 +79,19 @@ $(document).ready(function() {
       openMobileMenu();
     }
   });
+
+  var btn = $("#myBtn");
+
+  $("main").scroll(function() {
+    if ($("main").scrollTop() > 300) {
+      btn.addClass("show");
+    } else {
+      btn.removeClass("show");
+    }
+  });
+
+  btn.on("click", function(e) {
+    e.preventDefault();
+    $("html, body, main").animate({ scrollTop: 0 }, "300");
+  });
 });
