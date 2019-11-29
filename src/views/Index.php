@@ -1,4 +1,4 @@
-<?php $title = "Engenharia Civil" ?>
+<?php $title = "Início" ?>
 <?php include "./src/views/includes/head.php" ?>
 
 <h1>SLIDER VEM AQUI</h1>
