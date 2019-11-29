@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,700,700i|Work+Sans:400,700&display=swap");
 @import url("reset.css");
 @import url("mobile.css");
-@import url("./pages/consitec/styles.css");
 
 .visible {
   display: flex !important;
@@ -41,6 +40,20 @@ aside a:active {
 
 ul {
   padding: 0px;
+}
+
+footer p {
+  font-size: 11px;
+  line-height: 14px;
+}
+
+footer a {
+  font-size: 10px;
+  font-family: "Roboto Mono", sans-serif;
+  text-transform: uppercase;
+  text-decoration: underline !important;
+  font-weight: bold;
+  margin-right: 10px;
 }
 
 .mobile-menu {
@@ -121,6 +134,8 @@ footer {
 main {
   display: flex;
   flex-direction: column;
+
+  width: -webkit-fill-available;
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
@@ -230,34 +245,54 @@ section p strong {
   font-weight: bold;
 }
 
-/***** ******** **** projetos **** ******** *****/
+section ul li::before {
+  content: "\25a0";
+  color: #d73228;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
 
-.projetos_container {
+/***** **** Projects **** *****/
+
+.project-title {
+  white-space: initial;
+}
+
+.projects-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   position: relative;
 }
 
-.projetos_container a {
-  flex: 0 0 33.3333%;
+.projects-container a {
+  flex-grow: 1;
+  flex-basis: 33.3333%;
   position: relative;
   text-decoration: none;
 }
 
-.projetos_container .projeto {
-  background-size: cover;
+.projects-container .projeto {
   display: flex;
   flex-direction: column-reverse;
-  flex: 0 0 33.3333%;
+  flex-grow: 1;
+
   min-width: 300px;
   min-height: 300px;
 }
 
-.projetos_container .projeto:after {
-  background-color: red;
+.projects-container .projeto:after {
+  content: "\f35d";
+  font-family: "FontAwesome";
+  font-size: 100px;
+  text-align: center;
+  padding-top: 90px;
+  box-sizing: border-box;
+  color: white;
+  background-color: #d7322899;
   position: absolute;
-  content: "";
   top: 0;
   left: 0;
   width: 100%;
@@ -265,37 +300,45 @@ section p strong {
   opacity: 0;
 }
 
-.projetos_container .projeto:hover:after {
-  opacity: 0.5;
+.projects-container .projeto:hover:after {
+  opacity: 1;
 }
 
-.projetos_container .projeto span {
+.projects-container .projeto span {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
 }
 
-.projetos_container .projeto label.title {
-  max-width: 70%;
-  background: red;
+.projects-container .projeto label {
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.projects-container .projeto label.title {
+  width: fit-content;
+  background: #d73228;
   color: white;
   padding: 20px;
+  font-size: 14px;
 }
 
-.projetos_container .projeto label.type {
-  background: #003b4a;
-  color: white;
+.projects-container .projeto label.type {
   width: fit-content;
-  padding: 5px;
-  position: absolute;
-  margin-top: 40px;
+  padding: 10px 10px 10px 20px;
+  color: white;
+  background: #003b4a;
+  font-style: italic;
+  font-size: 12px;
 }
 
-/***** ******** ******** **** SLIDER PROJECTS **** ******** ******** *****/
+/***** **** Projects - Slider **** *****/
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  width: -webkit-fill-available;
+  max-height: 400px;
+  overflow: hidden;
   position: relative;
   margin: auto;
 }
@@ -325,13 +368,13 @@ section p strong {
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  color: #003b4a;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 /* Caption text */
@@ -352,23 +395,6 @@ section p strong {
   padding: 8px 12px;
   position: absolute;
   top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-  background-color: #717171;
 }
 
 /* Fading animation */

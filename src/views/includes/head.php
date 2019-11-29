@@ -12,10 +12,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title><?= $title ?></title>
 
+  <link rel="stylesheet" type="text/css" href="./src/assets/css/main.css"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
   <script src="https://kit.fontawesome.com/81fa77429e.js" crossorigin="anonymous"></script>
   <script src="./src/assets/js/main.js"></script>
-  <link rel="stylesheet" type="text/css" href="./src/assets/css/main.css"/>
 </head>
 <body>
   <?php include "./src/views/includes/menu.php" ?>

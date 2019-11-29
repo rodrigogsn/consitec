@@ -22,7 +22,7 @@
 
 <section>
   <h3>Gestão Social</h3>
-  <h1>Comunidades do Entorno</h1>
+  <h1>Desenvolvimento<br/>das Comunidades<br/>do Entorno</h1>
   <div>
     <p>
       Com o intuito de promover o desenvolvimento pessoal e profissional, a CONSITEC prioriza a educação e a geração de trabalho e renda das populações do entorno de suas operações, de modo a fomentar a inclusão e ativar a economia das comunidades. 

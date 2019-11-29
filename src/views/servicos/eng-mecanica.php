@@ -16,7 +16,7 @@
 </header>
 
 <section>
-  <h1>Engenharia Mecânica</h1>
+  <h1>Engenharia<br/>Mecânica</h1>
   <div>
     <p>
       Desde os menores componentes até os maiores projetos, nossos especialistas garantem que tudo o que produzimos é ecologicamente amigável, fácil de manter e construído para durar.

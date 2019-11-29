@@ -16,7 +16,7 @@
 </header>
 
 <section>
-  <h1>Gestão de Projetos</h1>
+  <h1>Gestão &<br/>Qualidade</h1>
   <div>
     <p>
       O Programa CONSITEC de qualidade e desempenho é a principal ferramenta de gerenciamento dos Projetos. De autoria da própria Empresa, reforça a gestão descentralizada necessária para o sucesso de cada um dos Projetos, já que permite formatar um modelo de gestão adaptado à realidade de cada operação, a ser conduzido de maneira autônoma pelas respectivas lideranças. Inspirado na metodologia PMBOK (Project Management Body of Knowledge), define metas de desempenho e organiza os processos das obras, de acordo com os respectivos requisitos.

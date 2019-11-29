@@ -16,7 +16,6 @@
   $content = !file_exists(file_get_contents("{$projeto_path}\content.html")) ? file_get_contents("{$projeto_path}\content.html") : '';
 
   $images_path = scandir($projeto_path."/images");
-
 ?>
 <?php include "./src/views/includes/head.php" ?>
 
@@ -57,7 +56,7 @@
 </header>
 
 <section>
-  <h1><?=$projeto_nome?></h1>
+  <h1 class="project-title"><?=$projeto_nome?></h1>
 
   <?=$content?>
 </section>
