@@ -107,7 +107,7 @@ $(document).ready(function() {
 
   /** Slick Home Slider Settings */
   $(".home-slider").slick({
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 3000,
     arrows: false,
     pauseOnHover: false

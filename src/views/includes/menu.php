@@ -5,7 +5,7 @@
     </a>
   </div>
   <div class="menu-icon">
-    <span onClick="openMobileMenu()">☰</span>
+    <span onClick="openMobileMenu()"><i class="fas fa-bars"></i></span>
   </div>
 </div>
 

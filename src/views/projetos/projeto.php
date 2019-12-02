@@ -59,6 +59,8 @@
   <h1 class="project-title"><?=$projeto_nome?></h1>
 
   <?=$content?>
+
+  <a href="projetos"><button class="btn-standard"><span class="fas fa-chevron-left"></span> Mais projetos</button></a>
 </section>
 
 <script>

@@ -21,7 +21,7 @@ body {
   flex-direction: row;
 }
 
-/**** **** NAVIGATION MENU **** ****/
+/**** ******** **** NAVIGATION MENU **** ******** ****/
 
 aside {
   display: flex;
@@ -132,7 +132,7 @@ footer {
   padding: 20px;
 }
 
-/**** **** MAIN CONTENT **** ****/
+/**** ******** **** MAIN CONTENT **** ******** ****/
 
 main {
   display: flex;
@@ -181,6 +181,7 @@ section {
   flex-direction: column;
 
   margin-left: 60px;
+  margin-bottom: 40px;
 }
 
 section h1:first-child,
@@ -256,7 +257,24 @@ section ul li::before {
   margin-left: -1em;
 }
 
-/**** **** HOME SLIDER **** ****/
+button.btn-standard {
+  font-family: "Roboto Mono", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #003b4a;
+  background: white;
+  border: #003b4a 3px solid;
+  padding: 20px;
+  transition: all 0.2s;
+}
+
+button.btn-standard:hover,
+button.btn-standard:active {
+  color: white;
+  background: #003b4a;
+}
+
+/**** ******** **** HOME SLIDER **** ******** ****/
 
 .home-slider,
 .home-slider-container {
@@ -334,7 +352,7 @@ section ul li::before {
   height: -webkit-fill-available !important;
 }
 
-/***** **** PROJECTS **** *****/
+/***** ******** **** PROJECTS **** ******** *****/
 
 .project-title {
   white-space: initial;
@@ -412,7 +430,7 @@ section ul li::before {
   font-size: 12px;
 }
 
-/***** **** CONTACT ***** ****/
+/***** ******** **** CONTACT ***** ******** ****/
 
 .contact-container {
   display: flex;
@@ -487,7 +505,7 @@ textarea {
   align-items: center;
 }
 
-/***** **** CLIENTES **** *****/
+/***** ******** **** CLIENTES **** ******** *****/
 
 .clients-container {
   display: flex;
@@ -504,12 +522,12 @@ textarea {
   width: 150px;
 }
 
-/***** **** SLIDER PROJECTS **** *****/
+/***** ******** **** SLIDER PROJECTS **** ******** *****/
 
 /* Slideshow container */
 .slideshow-container {
   width: -webkit-fill-available;
-  max-height: 400px;
+  max-height: 85vh;
   overflow: hidden;
   position: relative;
   margin: auto;
@@ -518,6 +536,7 @@ textarea {
 /* Hide the images by default */
 .mySlides {
   display: none;
+  margin-top: -150px;
 }
 
 /* Next & previous buttons */
@@ -531,7 +550,7 @@ textarea {
   padding: 16px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 40px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
