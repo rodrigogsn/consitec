@@ -435,6 +435,8 @@ button.btn-standard:active {
 .contact-container {
   display: flex;
   flex-direction: row;
+
+  width: 100%;
 }
 
 .contact-container form {
@@ -467,18 +469,34 @@ textarea {
 }
 
 .contact-container form input[type="submit"] {
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: bold;
   background-color: #d73228;
   color: #fff;
+  border: 0;
   border-bottom: 5px solid #940900;
-  border-left: none;
-  border-top: none;
-  border-right: none;
   height: 35px;
+  padding: 4px 0;
+  box-sizing: content-box;
+  transition: all 0.2s;
+  margin-top: 0px;
+}
+
+.contact-container form input[type="submit"]:hover {
+  background-color: #c03029;
+  border-bottom: 5px solid #940900;
+}
+
+.contact-container form input[type="submit"]:active {
+  background-color: #940900;
+  border-bottom: 0px solid #940900;
+  margin-top: 5px;
 }
 
 .contact-container h3 {
   color: #003b4a;
   font-weight: bolder;
+  background: none;
 }
 
 .contact-container i {
@@ -488,12 +506,19 @@ textarea {
   text-align: center;
 }
 
+.contact-container form label {
+  font-family: "Roboto Mono", sans-serif;
+  text-transform: uppercase;
+}
+
 .contact-data {
   display: flex;
   flex-direction: column;
 }
 
 .contact-data label {
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 15px;
   color: #003b4a;
 }
 
@@ -503,6 +528,10 @@ textarea {
   flex-direction: row;
   padding-bottom: 20px;
   align-items: center;
+}
+
+.contact-data i {
+  color: #003b4a;
 }
 
 /***** ******** **** CLIENTES **** ******** *****/

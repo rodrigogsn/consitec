@@ -35,7 +35,7 @@
 
   <div class="home-slider-container home-slider-1">
     <article class="home-slider-desc">
-      <h4>01</h4>
+      <!-- <h4>01</h4> -->
       <a href="sobre">
         <h1>Consitec Engenharia e Tecnologia</h1>
         <p>
@@ -48,7 +48,7 @@
 
   <div class="home-slider-container home-slider-2">
     <article class="home-slider-desc">
-      <h4>02</h4>
+      <!-- <h4>02</h4> -->
       <a href="gestao-projetos">
         <h1>Inovações para a Sustentabilidade</h1>
         <p>
@@ -61,7 +61,7 @@
   
   <div class="home-slider-container home-slider-3">
     <article class="home-slider-desc">
-      <h4>03</h4>
+      <!-- <h4>03</h4> -->
       <a href="projetos">
         <h1>Garantia de Qualidade</h1>
         <p>
@@ -74,7 +74,7 @@
   
   <div class="home-slider-container home-slider-4">
     <article class="home-slider-desc">
-      <h4>04</h4>
+      <!-- <h4>04</h4> -->
       <a href="gestao-capacitacao">
         <h1>Programa de Capacitação em Gestão e Tecnologia da Construção</h1>
         <p>

@@ -3,7 +3,7 @@
 
 <?php
   if (isset($_POST['BTEnvia'])) {  
-  //Variaveis de POST, Alterar somente se necessário 
+  //Variaveis de POST, alterar somente se necessário 
   //====================================================
   $nome = $_POST['nome'];
   $email = $_POST['email'];
@@ -11,7 +11,7 @@
   $mensagem = $_POST['mensagem'];
   //====================================================
   
-  //REMETENTE --> ESTE EMAIL TEM QUE SER VALIDO DO DOMINIO
+  //Remetente --> Este email tem que válido no domínio
   //==================================================== 
   $email_remetente = "guto2xx@gmail.com"; // deve ser uma conta de email do seu dominio 
   //====================================================
@@ -23,7 +23,7 @@
   $email_assunto = "Contato formmail"; // Este será o assunto da mensagem
   //====================================================
   
-  //Monta o Corpo da Mensagem
+  //Monta o corpo da mensagem
   //====================================================
   $email_conteudo = "Nome = $nome \n"; 
   $email_conteudo .= "Email = $email \n";
@@ -31,7 +31,7 @@
   $email_conteudo .= "Mensagem = $mensagem \n"; 
   //====================================================
   
-  //Seta os Headers (Alterar somente caso necessario) 
+  //Configura os Headers (Alterar somente se necessário) 
   //==================================================== 
   $email_headers = implode ( "\n",array ( "From: $email_remetente", "Reply-To: $email_reply", "Return-Path: $email_remetente","MIME-Version: 1.0","X-Priority: 3","Content-Type: text/html; charset=UTF-8" ) );
   //====================================================
@@ -51,7 +51,7 @@
 <section>
   <h1>Fale Conosco</h1>
 
-  <div class='contact-container'>
+  <div class="contact-container">
     <span>
       <p>
         Entre em contato conosco utilizando o formulário abaixo, ou encontre a CONSITEC nos diversos canais de comunicação disponíveis.
@@ -74,12 +74,12 @@
       </form>
     </span>
 
-    <span class='contact-data'>
+    <span class="contact-data">
       <h3>CONSITEC ENGENHARIA E TECNOLOGIA LTDA. 02.243.019/0001-94</h3>
 
       <span><i class="fas fa-map-marker-alt"></i> <label>Rua Arthur Friedenreich, 43 - Vila Rio Branco/SP</label></span>
       <span><i class="fas fa-phone-alt"></i> <label>(11) 2041-8711</label></span>
-      <span><i class="fas fa-envelope"></i> <label>contato@consitec.eng.br</label></span>
+      <span><i class="far fa-envelope"></i> <label>contato@consitec.eng.br</label></span>
       <span><i class="fab fa-facebook-f"></i> <label>consitec.eng.tecnologia</label></span>
       <span><i class="fab fa-instagram"></i> <label>@consitec.eng.tecnologia</label></span>
     </span>
