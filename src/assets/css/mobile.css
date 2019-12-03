@@ -130,6 +130,14 @@
     margin-top: 0px !important;
   }
 
+  .contact-container {
+    flex-direction: column !important;
+  }
+
+  .contact-container span {
+    width: 100% !important;
+  }
+
   /**** **** MOBILE MENU **** ****/
 
   .mobile-menu {

@@ -456,7 +456,9 @@ button.btn-standard:active {
 }
 
 .contact-container form input[type="text"],
+.contact-container form input[type="email"],
 textarea {
+  font-family: "Work Sans", sans-serif;
   background-color: #eaeaea;
   border: none;
   height: 25px;
@@ -487,7 +489,8 @@ textarea {
   border-bottom: 5px solid #940900;
 }
 
-.contact-container form input[type="submit"]:active {
+.contact-container form input[type="submit"]:active,
+.contact-container form input[type="submit"]:disabled {
   background-color: #940900;
   border-bottom: 0px solid #940900;
   margin-top: 5px;

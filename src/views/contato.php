@@ -62,7 +62,7 @@
         <input type="text" size="30" name="nome"> 
 
         <label>E-mail</label>
-        <input type="text" size="30" name="email"> 
+        <input type="email" size="30" name="email"> 
 
         <label>Telefone</label>
         <input type="text" size="35" name="telefone"> 
