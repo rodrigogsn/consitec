@@ -112,4 +112,10 @@ $(document).ready(function() {
     arrows: false,
     pauseOnHover: false
   });
+
+  $("#contact_form").submit(function(event) {
+    $("input[name=BTEnvia]").prop("disabled", true);
+
+    return true;
+  });
 });
