@@ -92,9 +92,12 @@
   }
 
   footer {
+    /* position: absolute;
+    bottom: 0; */
     color: white !important;
     padding: 20px !important;
     background: #003b4a !important;
+    z-index: 2 !important;
   }
 
   footer p {
@@ -172,6 +175,7 @@
 
   .menu-container ul {
     font-size: 18px !important;
+    margin-left: 20px !important;
   }
 
   .menu-container li {
