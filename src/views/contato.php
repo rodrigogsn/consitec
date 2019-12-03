@@ -2,6 +2,9 @@
 <?php include "./src/views/includes/head.php" ?>
 
 <?php
+  //Esconder avisos de erro 
+  error_reporting(E_ERROR | E_PARSE);
+
   if (isset($_POST['BTEnvia'])) {  
   //Variaveis de POST, alterar somente se necessário 
   //====================================================
@@ -20,7 +23,7 @@
   //==================================================== 
   $email_destinatario = "guto2xx@gmail.com"; // pode ser qualquer email que receberá as mensagens
   $email_reply = "$email"; 
-  $email_assunto = "Contato formmail"; // Este será o assunto da mensagem
+  $email_assunto = "Consitec - Mensagem de usuário"; // Este será o assunto da mensagem
   //====================================================
   
   //Monta o corpo da mensagem
@@ -39,10 +42,11 @@
   //Enviando o email 
   //==================================================== 
   if (mail ($email_destinatario, $email_assunto, nl2br($email_conteudo), $email_headers)){ 
-  echo "</b>E-Mail enviado com sucesso!</b>"; 
+    $mail_success = "<div class='mail-notification-success'>Mensagem enviada com sucesso! Responderemos em breve.</div>"; 
   } 
   else{ 
-  echo "</b>Falha no envio do E-Mail!</b>"; } 
+    $mail_failure = "<div class='mail-notification-failure'>Falha no envio da mensagem. Tente novamente mais tarde.</div>";
+  } 
   //====================================================
   } 
 ?>
@@ -71,11 +75,13 @@
         <textarea name="mensagem"></textarea>
 
         <input type="submit" name="BTEnvia" value="ENVIAR">
+        <?= $mail_success ?>
+        <?= $mail_failure ?>
       </form>
     </span>
 
     <span class="contact-data">
-      <h3>CONSITEC ENGENHARIA E TECNOLOGIA LTDA. 02.243.019/0001-94</h3>
+      <h3>Consitec Engenharia e Tecnologia Ltda. 02.243.019/0001-94</h3>
 
       <span><i class="fas fa-map-marker-alt"></i> <label>Rua Arthur Friedenreich, 43 - Vila Rio Branco/SP</label></span>
       <span><i class="fas fa-phone-alt"></i> <label>(11) 2041-8711</label></span>
