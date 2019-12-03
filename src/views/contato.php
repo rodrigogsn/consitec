@@ -85,11 +85,11 @@
     <span class="contact-data">
       <h3>Consitec Engenharia e Tecnologia Ltda. 02.243.019/0001-94</h3>
 
-      <span><i class="fas fa-map-marker-alt"></i> <label>Rua Arthur Friedenreich, 43 - Vila Rio Branco/SP</label></span>
-      <span><i class="fas fa-phone-alt"></i> <label>(11) 2041-8711</label></span>
-      <span><i class="far fa-envelope"></i> <label>contato@consitec.eng.br</label></span>
-      <span><i class="fab fa-facebook-f"></i> <label>consitec.eng.tecnologia</label></span>
-      <span><i class="fab fa-instagram"></i> <label>@consitec.eng.tecnologia</label></span>
+      <span><i class="fas fa-map-marker-alt"></i> <label><a href="https://goo.gl/maps/emUSJYgDQFxuB3Te7">Rua Arthur Friedenreich, 43 - Vila Rio Branco/SP</a></label></span>
+      <span><i class="fas fa-phone-alt"></i> <label><a href="tel:1120418711">(11) 2041-8711</a></label></span>
+      <span><i class="far fa-envelope"></i> <label><a href="mailto:contato@consitec.eng.br">contato@consitec.eng.br</a></label></span>
+      <span><i class="fab fa-facebook-f"></i> <label><a href="https://www.facebook.com/consitec.eng.tecnologia">consitec.eng.tecnologia</a></label></span>
+      <span><i class="fab fa-instagram"></i> <label><a href="https://www.instagram.com/consitec.eng.tecnologia">@consitec.eng.tecnologia</label></a></span>
     </span>
   </div>
 
@@ -97,7 +97,7 @@
 
 <script>
   $(document).ready(function() {
-    $('input[name=telefone]').mask('(00) 00000-0000', {placeholder: "( ) _____-____"});
+    $('input[name=telefone]').mask('(00) 000000000', {placeholder: ""});
   });
 </script>
 

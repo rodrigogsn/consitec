@@ -537,6 +537,11 @@ textarea {
   color: #003b4a;
 }
 
+.contact-data a {
+  text-decoration: underline;
+  color: #003b4a;
+}
+
 .mail-notification-success {
   margin: 10px 0;
   padding: 10px;
