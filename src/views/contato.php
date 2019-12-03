@@ -5,7 +5,7 @@
   //Esconder avisos de erro 
   error_reporting(E_ERROR | E_PARSE);
 
-  if (isset($_POST['BTEnvia'])) {  
+  if (isset($_POST['confirm_send'])) {  
   //Variaveis de POST, alterar somente se necessário 
   //====================================================
   $nome = $_POST['nome'];
@@ -61,18 +61,20 @@
         Entre em contato conosco utilizando o formulário abaixo, ou encontre a CONSITEC nos diversos canais de comunicação disponíveis.
       </p>
   
-      <form action="<?php $PHP_SELF; ?>" method="POST"> 
+      <form id='contact_form' action="<?php $PHP_SELF; ?>" method="POST"> 
         <label>Nome</label>
-        <input type="text" size="30" name="nome"> 
+        <input type="text" size="30" name="nome" required> 
 
         <label>E-mail</label>
-        <input type="email" size="30" name="email"> 
+        <input type="email" size="30" name="email" required> 
 
         <label>Telefone</label>
-        <input type="text" size="35" name="telefone"> 
+        <input type="text" size="35" name="telefone" required> 
  
         <label>Mensagem</label>
-        <textarea name="mensagem"></textarea>
+        <textarea name="mensagem" required></textarea>
+
+        <input type="hidden" name='confirm_send'>
 
         <input type="submit" name="BTEnvia" value="ENVIAR">
         <?= $mail_success ?>
@@ -92,6 +94,12 @@
   </div>
 
 </section>
+
+<script>
+  $(document).ready(function() {
+    $('input[name=telefone]').mask('(00) 00000-0000', {placeholder: "( ) _____-____"});
+  });
+</script>
 
 
 
