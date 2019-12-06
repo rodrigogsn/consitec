@@ -16,12 +16,12 @@
   
   //Remetente --> Este email tem que válido no domínio
   //==================================================== 
-  $email_remetente = "guto2xx@gmail.com"; // deve ser uma conta de email do seu dominio 
+  $email_remetente = "celia@consitec.eng.br"; // deve ser uma conta de email do seu dominio 
   //====================================================
   
   //Configurações do email, ajustar conforme necessidade
   //==================================================== 
-  $email_destinatario = "guto2xx@gmail.com"; // pode ser qualquer email que receberá as mensagens
+  $email_destinatario = "celia@consitec.eng.br"; // pode ser qualquer email que receberá as mensagens
   $email_reply = "$email"; 
   $email_assunto = "Consitec - Mensagem de usuário"; // Este será o assunto da mensagem
   //====================================================
@@ -95,6 +95,7 @@
 
 </section>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
 <script>
   $(document).ready(function() {
     $('input[name=telefone]').mask('(00) 000000000', {placeholder: ""});

@@ -95,7 +95,7 @@ $(document).ready(function() {
     $("html, body, main").animate({ scrollTop: 0 }, "300");
   });
 
-  if (window.matchMedia("(max-device-width: 680px)").matches) {
+  if (window.matchMedia("screen and (max-width: 680px)").matches) {
     $("footer").insertAfter("main");
 
     const homeSlider = $("main > div").hasClass("home-slider");
@@ -108,7 +108,7 @@ $(document).ready(function() {
   /** Slick Home Slider Settings */
   $(".home-slider").slick({
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 6000,
     arrows: false,
     pauseOnHover: false
   });

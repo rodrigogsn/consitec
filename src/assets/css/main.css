@@ -352,6 +352,10 @@ button.btn-standard:active {
   height: -webkit-fill-available !important;
 }
 
+.slick-slide {
+  height: 100vh !important;
+}
+
 /***** ******** **** PROJECTS **** ******** *****/
 
 .project-title {

@@ -9,7 +9,7 @@
   }
 
   main {
-    height: -webkit-fill-available !important;
+    height: initial !important;
     overflow-y: unset !important;
     overflow-x: unset !important;
   }
